@@ -1,0 +1,41 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-settings.json",
+  "enableAllProjectMcpServers": true,
+  "permissions": {
+    "allow": [
+      "mcp__docbase-mcp__searchPosts",
+      "mcp__docbase-mcp__getPost",
+      "mcp__docbase-mcp__getTags",
+      "mcp__docbase-mcp__searchGroups",
+      "mcp__docbase-mcp__getGroup",
+      "mcp__docbase-mcp__getProfile",
+      "mcp__docbase-mcp__getTeam",
+      "Read(**)",
+      "Edit(./drafts/**)"
+    ],
+    "ask": [
+      "mcp__docbase-mcp__createPost",
+      "mcp__docbase-mcp__updatePost",
+      "mcp__docbase-mcp__patchPostBody"
+    ],
+    "deny": [
+      "mcp__docbase-mcp__deletePost",
+      "mcp__docbase-mcp__archivePost",
+      "mcp__docbase-mcp__unarchivePost",
+      "mcp__docbase-mcp__createComment",
+      "mcp__docbase-mcp__deleteComment",
+      "mcp__docbase-mcp__createGroup",
+      "mcp__docbase-mcp__addUsersToGroup",
+      "mcp__docbase-mcp__removeUsersFromGroup",
+      "mcp__docbase-mcp__searchUsers",
+      "mcp__docbase-mcp__getComments",
+      "mcp__docbase-mcp__downloadAttachment",
+      "Bash(curl:*)",
+      "Bash(rm:*)",
+      "Bash(git push:*)",
+      "Edit(CLAUDE.md)",
+      "Edit(.mcp.json)",
+      "Edit(.claude/settings.json)"
+    ]
+  }
+}

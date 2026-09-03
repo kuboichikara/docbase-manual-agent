@@ -1,0 +1,15 @@
+# 下書き（各担当者のローカル作業ファイル。共有しない）
+drafts/*
+!drafts/.gitkeep
+
+# Claude Code の個人設定・認証情報
+.claude/settings.local.json
+.claude/.credentials.json
+.mcp.local.json
+
+# OS / エディタ
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/
